@@ -44,11 +44,22 @@ body {
             font-weight: bold;
             text-align: center;
           }
-          .top-btn {
-            a {
-              color: #ffffff;
-              border: 1px solid;
-            }
+          
+        }
+        .top-btn {
+          display: flex;
+          justify-content: center;
+          a {
+            position: absolute;
+            top: 565px;
+            color: #ffffff;
+            font-size: 30px;
+            border: 2px solid;
+            width: 127px;
+            height: 49px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 1.4;
           }
         }
       }

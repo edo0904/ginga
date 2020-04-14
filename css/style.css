@@ -49,9 +49,26 @@ body main .main-top-wrappar .main-top-mv .top-heading h2 {
   text-align: center;
 }
 
-body main .main-top-wrappar .main-top-mv .top-heading .top-btn a {
+body main .main-top-wrappar .main-top-mv .top-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .main-top-wrappar .main-top-mv .top-btn a {
+  position: absolute;
+  top: 565px;
   color: #ffffff;
-  border: 1px solid;
+  font-size: 30px;
+  border: 2px solid;
+  width: 127px;
+  height: 49px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4;
 }
 
 footer .footer {
