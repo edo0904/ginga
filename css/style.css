@@ -77,7 +77,27 @@ body main .content-wrapper {
   margin-top: 150px;
 }
 
+body main .content-wrapper .content1 .content1-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .content-wrapper .content1 .content1-heading h2 {
+  width: 400px;
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  border-bottom: 3px solid #333;
+  line-height: 2;
+}
+
 body main .content-wrapper .content1 .content1-article {
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

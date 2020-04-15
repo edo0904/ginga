@@ -68,11 +68,22 @@ body {
     .content-wrapper {
       margin-top: 150px;
       .content1 {
-        .content-heading {
+        .content1-heading {
+          display: flex;
+          justify-content: center;
           h2 {
+            width: 400px;
+            font-size: 46px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+            border-bottom: 3px solid #333;
+            line-height: 2;
+            
           }
         }
         .content1-article {
+          margin-top: 100px;
           display: flex;
           .content1-article-img {
             img {
