@@ -68,6 +68,7 @@ body {
     .content-wrapper {
       margin-top: 150px;
       .content1 {
+        margin-bottom: 183px;
         .content1-heading {
           display: flex;
           justify-content: center;
@@ -79,12 +80,13 @@ body {
             margin: 0;
             border-bottom: 3px solid #333;
             line-height: 2;
-            
           }
         }
         .content1-article {
           margin-top: 100px;
           display: flex;
+          position: relative;
+
           .content1-article-img {
             img {
               width: 734px;
@@ -92,22 +94,26 @@ body {
             }
           }
           .content1-article-text {
-            .content1-article-text-p1 {
+            position: absolute;
+            left: 65%;
+
+            .content1-article-text-p1,
+            .content1-article-text-p2,
+            .content1-article-text-p3,
+            .content1-article-text-p4 {
               p {
-              }
-            }
-            .content1-article-text-p2 {
-              p {
-              }
-            }
-            .content1-article-text-p3 {
-              p {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1.5;
+                margin-top: 0;
+                margin-bottom: 40px;
+                
               }
             }
             .content1-article-text-p4 {
-              p {
-              }
+              margin-bottom: 53px;
             }
+
             .content1-article-text-btn {
               a {
                 color: #333333;
@@ -117,6 +123,10 @@ body {
                 box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
                 border: 2px solid #333333;
                 opacity: 1;
+                padding:13px 45px;
+                
+                
+                
               }
             }
           }
@@ -252,13 +262,11 @@ footer {
   .footer {
     background-color: #5f5e5e;
     .footer-icon {
-     display: flex;
-     justify-content: center;
+      display: flex;
+      justify-content: center;
       padding-top: 25px;
-      
-      
+
       img {
-      
         width: 30px;
         height: 30px;
       }
