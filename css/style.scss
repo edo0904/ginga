@@ -132,25 +132,36 @@ body {
       }
       .content3 {
         position: relative;
-        
+
         .content3-img {
           img {
             width: 1280px;
             height: 809px;
           }
-          
         }
         .content3-h3 {
-           position: absolute;
-           top: 172px;
-          
-          
+          position: absolute;
+          top: 172px;
+          left: 17.5%;
+
           h3 {
-           
             margin: 0;
             font-size: 32px;
             color: #ffffff;
-            
+          }
+        }
+        .content3-text {
+          position: absolute;
+          top: 274px;
+          left: 17.5%;
+          color: #ffffff;
+          display: flex;
+          flex-direction: column;
+          .content3-text-p {
+            font-weight: bold;
+            line-height: 1.5;
+            letter-spacing: normal;
+            font-size: 20px;
           }
         }
       }

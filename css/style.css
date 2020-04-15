@@ -128,12 +128,34 @@ body main .content-wrapper .content3 .content3-img img {
 body main .content-wrapper .content3 .content3-h3 {
   position: absolute;
   top: 172px;
+  left: 17.5%;
 }
 
 body main .content-wrapper .content3 .content3-h3 h3 {
   margin: 0;
   font-size: 32px;
   color: #ffffff;
+}
+
+body main .content-wrapper .content3 .content3-text {
+  position: absolute;
+  top: 274px;
+  left: 17.5%;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .content-wrapper .content3 .content3-text .content3-text-p {
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: normal;
+  font-size: 20px;
 }
 
 footer .footer {
