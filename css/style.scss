@@ -13,6 +13,14 @@ html {
   width: 980px;
   margin: 0 auto;
 }
+a { 
+  text-decoration: none; 
+  transition: all .6s ease;
+}
+
+a:hover { 
+  transition: all .6s ease;
+}
 body {
   width: 1280px;
   margin: 0;
@@ -236,42 +244,97 @@ body {
       }
       .content4 {
         .inner {
-          .content4-group {
-            margin: 110px;
-            display: flex;
-            flex-direction: row-reverse;
-            &:nth-of-type(2n) {
-              display: flex;
-              flex-direction: row;
-            }
-
+          position: relative;
+          .box-layout1 {
             background-color: #013b74;
-            .content4-group-img {
-              .content4-group-img-1,
-              .content4-group-img-2 {
-                img {
-                  width: 450px;
-                  height: 450px;
+            margin: 220px 0;
+            width: 910px;
+            height: 506px;
+            .textbox1 {
+              position: relative;
+              &::after {
+                content: "";
+                background-image: url(../img/s-5.png);
+                width: 450px;
+                height: 450px;
+                z-index: 1;
+                position: absolute;
+                top: -70px;
+                right: -70px;
+              }
+              .text1 {
+                position: absolute;
+                left: 70px;
+                top: 90px;
+                p {
+                  margin-top: 0;
+                  margin-bottom: 50px;
+                  color: #ffffff;
+                  font-weight: bold;
+                  line-height: 2;
+                }
+                .btn {
+                  a {
+                    margin: 50px 0;
+                    color: #ffffff;
+                    text-decoration: none;
+                    border: 2px solid #ffffff;
+                    padding: 15px 50px;
+                  }
                 }
               }
             }
-            .content4-group-text {
-              color: #ffffff;
-              .content4-group-text-p {
-                p {
-                }
+          }
+          .box-layout2 {
+            position: absolute;
+            right: 0;
+            background-color: #013b74;
+            width: 910px;
+            height: 506px;
+            .textbox2 {
+              position: relative;
+          
+              &::after {
+                content: "";
+                background-image: url(../img/s-6.png);
+                width: 450px;
+                height: 450px;
+                object-fit: cover;
+                z-index: 1;
+                position: absolute;
+                top: -70px;
+                left: -70px;
               }
-              .content4-group-text-btn {
-                a {
-                  text-decoration: none;
+              .text2 {
+                position: absolute;
+                right: 80px;
+                top: 90px;
+                p {
+                  margin-top: 0;
+                  margin-bottom: 50px;
                   color: #ffffff;
-                  border: 2px solid;
+                  font-weight: bold;
+                  line-height: 2;
+                }
+                .btn {
+                  position: relative;
+                  a {
+                    position: absolute;
+                    right: 0;
+                    bottom: -100px;
+                    margin: 50px 0;
+                    color: #ffffff;
+                    text-decoration: none;
+                    border: 2px solid #ffffff;
+                    padding: 15px 50px;
+                  }
                 }
               }
             }
           }
         }
       }
+      
       .content5 {
         .inner {
           display: flex;

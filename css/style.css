@@ -16,6 +16,17 @@ html {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+a:hover {
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
 body {
   width: 1280px;
   margin: 0;
@@ -267,42 +278,106 @@ body main .content-wrapper .content3 .content3-text .content3-text-p {
   font-size: 20px;
 }
 
-body main .content-wrapper .content4 .inner .content4-group {
-  margin: 110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+body main .content-wrapper .content4 .inner {
+  position: relative;
+}
+
+body main .content-wrapper .content4 .inner .box-layout1 {
   background-color: #013b74;
+  margin: 220px 0;
+  width: 910px;
+  height: 506px;
 }
 
-body main .content-wrapper .content4 .inner .content4-group:nth-of-type(2n) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+body main .content-wrapper .content4 .inner .box-layout1 .textbox1 {
+  position: relative;
 }
 
-body main .content-wrapper .content4 .inner .content4-group .content4-group-img .content4-group-img-1 img,
-body main .content-wrapper .content4 .inner .content4-group .content4-group-img .content4-group-img-2 img {
+body main .content-wrapper .content4 .inner .box-layout1 .textbox1::after {
+  content: "";
+  background-image: url(../img/s-5.png);
   width: 450px;
   height: 450px;
+  z-index: 1;
+  position: absolute;
+  top: -70px;
+  right: -70px;
 }
 
-body main .content-wrapper .content4 .inner .content4-group .content4-group-text {
+body main .content-wrapper .content4 .inner .box-layout1 .textbox1 .text1 {
+  position: absolute;
+  left: 70px;
+  top: 90px;
+}
+
+body main .content-wrapper .content4 .inner .box-layout1 .textbox1 .text1 p {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: #ffffff;
+  font-weight: bold;
+  line-height: 2;
 }
 
-body main .content-wrapper .content4 .inner .content4-group .content4-group-text .content4-group-text-btn a {
+body main .content-wrapper .content4 .inner .box-layout1 .textbox1 .text1 .btn a {
+  margin: 50px 0;
+  color: #ffffff;
   text-decoration: none;
+  border: 2px solid #ffffff;
+  padding: 15px 50px;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 {
+  position: absolute;
+  right: 0;
+  background-color: #013b74;
+  width: 910px;
+  height: 506px;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2 {
+  position: relative;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2::after {
+  content: "";
+  background-image: url(../img/s-6.png);
+  width: 450px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2 .text2 {
+  position: absolute;
+  right: 80px;
+  top: 90px;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2 .text2 p {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: #ffffff;
-  border: 2px solid;
+  font-weight: bold;
+  line-height: 2;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2 .text2 .btn {
+  position: relative;
+}
+
+body main .content-wrapper .content4 .inner .box-layout2 .textbox2 .text2 .btn a {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  margin: 50px 0;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  padding: 15px 50px;
 }
 
 body main .content-wrapper .content5 .inner {
