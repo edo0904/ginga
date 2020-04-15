@@ -272,7 +272,21 @@ body main .content-wrapper .content4 .inner .content4-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   background-color: #013b74;
+}
+
+body main .content-wrapper .content4 .inner .content4-group:nth-of-type(2n) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 body main .content-wrapper .content4 .inner .content4-group .content4-group-img .content4-group-img-1 img,

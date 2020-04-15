@@ -239,6 +239,12 @@ body {
           .content4-group {
             margin: 110px;
             display: flex;
+            flex-direction: row-reverse;
+            &:nth-of-type(2n) {
+              display: flex;
+              flex-direction: row;
+            }
+
             background-color: #013b74;
             .content4-group-img {
               .content4-group-img-1,
