@@ -158,11 +158,86 @@ body main .content-wrapper .content3 .content3-text .content3-text-p {
   font-size: 20px;
 }
 
+body main .content-wrapper .content4 .inner .content4-group {
+  margin: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #013b74;
+}
+
+body main .content-wrapper .content4 .inner .content4-group .content4-group-img .content4-group-img-1 img,
+body main .content-wrapper .content4 .inner .content4-group .content4-group-img .content4-group-img-2 img {
+  width: 450px;
+  height: 450px;
+}
+
+body main .content-wrapper .content4 .inner .content4-group .content4-group-text {
+  color: #ffffff;
+}
+
+body main .content-wrapper .content4 .inner .content4-group .content4-group-text .content4-group-text-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid;
+}
+
+body main .content-wrapper .content5 .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .content-wrapper .content5 .inner .content5-thumb {
+  width: 908px;
+  height: 504px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+}
+
+body main .content-wrapper .content5 .inner .content5-thumb .content5-thumb-img img {
+  width: 320px;
+  height: 229px;
+}
+
+body main .content-wrapper .content5 .inner .content5-thumb .content5-thumb-text .content5-thumb-text-h4 {
+  font-size: 16px;
+  border-bottom: 3px solid #013b74;
+}
+
+body main .content-wrapper .content5 .inner .content5-thumb .content5-thumb-text .content5-thumb-text-p p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body main .content-wrapper .content5 .inner .content5-thumb .content5-thumb-text .content5-thumb-text-more a {
+  color: #013b74;
+  text-decoration: none;
+  border: 2px solid #013b74;
+}
+
 footer .footer {
   background-color: #5f5e5e;
 }
 
+footer .footer .footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+footer .footer .footer-icon img {
+  width: 30px;
+  height: 30px;
+}
+
 footer .footer .copyright {
   color: #ffffff;
+  padding: 25px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
