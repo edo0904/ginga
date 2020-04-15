@@ -1,5 +1,7 @@
 @charset "UTF-8";
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -69,6 +71,69 @@ body main .main-top-wrappar .main-top-mv .top-btn a {
   text-decoration: none;
   text-align: center;
   line-height: 1.4;
+}
+
+body main .content-wrapper {
+  margin-top: 150px;
+}
+
+body main .content-wrapper .content1 .content1-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .content-wrapper .content1 .content1-article .content1-article-img img {
+  width: 734px;
+  height: 494px;
+}
+
+body main .content-wrapper .content1 .content1-article .content1-article-text .content1-article-text-btn a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  border: 2px solid #333333;
+  opacity: 1;
+}
+
+body main .content-wrapper .content2 .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .content-wrapper .content2 .inner .card .card-icon img {
+  width: 49px;
+  height: 49px;
+}
+
+body main .content-wrapper .content2 .inner .card .card-p {
+  width: 182px;
+}
+
+body main .content-wrapper .content3 {
+  position: relative;
+}
+
+body main .content-wrapper .content3 .content3-img img {
+  width: 1280px;
+  height: 809px;
+}
+
+body main .content-wrapper .content3 .content3-h3 {
+  position: absolute;
+  top: 172px;
+}
+
+body main .content-wrapper .content3 .content3-h3 h3 {
+  margin: 0;
+  font-size: 32px;
+  color: #ffffff;
 }
 
 footer .footer {
