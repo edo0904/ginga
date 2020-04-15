@@ -145,7 +145,7 @@ body main .content-wrapper .content1 .content1-article .content1-article-text .c
   padding: 13px 45px;
 }
 
-body main .content-wrapper .content2 .inner {
+body main .content-wrapper .content2 .inner .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,13 +153,75 @@ body main .content-wrapper .content2 .inner {
       justify-content: space-around;
 }
 
-body main .content-wrapper .content2 .inner .card .card-icon img {
+body main .content-wrapper .content2 .inner .cards .card {
+  position: relative;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-bg img {
+  width: 480px;
+  height: 500px;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-main {
+  position: absolute;
+  top: 85px;
+  left: 120px;
+  width: 240px;
+  height: 330px;
+  background-color: #fff;
+  opacity: 0.7;
+  text-align: center;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-main .card-icon img {
+  margin-top: 21px;
   width: 49px;
   height: 49px;
 }
 
-body main .content-wrapper .content2 .inner .card .card-p {
+body main .content-wrapper .content2 .inner .cards .card .card-main .card-h3 h3 {
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-main .card-h3 h3:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -17.5px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 50px;
+  /*線の長さ*/
+  height: 3px;
+  /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /*位置調整*/
+  background-color: #333;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-main .card-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .content-wrapper .content2 .inner .cards .card .card-main .card-p p {
+  margin: 0;
+  padding-top: 45px;
+  font-size: 16px;
   width: 182px;
+  height: 131px;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
 }
 
 body main .content-wrapper .content3 {
