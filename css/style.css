@@ -465,7 +465,7 @@ footer .footer {
   background-color: #5f5e5e;
 }
 
-footer .footer .footer-icon {
+footer .footer .footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,7 +475,11 @@ footer .footer .footer-icon {
   padding-top: 25px;
 }
 
-footer .footer .footer-icon img {
+footer .footer .footer-icons .footer-icon {
+  padding: 0 20px;
+}
+
+footer .footer .footer-icons .footer-icon img {
   width: 30px;
   height: 30px;
 }
